@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LearnIt</title>
+    <!-- bootstrap css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/0d5c0e3d15.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- css stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -308,6 +314,9 @@
             </div>
           </div>
         </div>
+        <div class="text-center my-5">
+          <button type="button" class="btn btn-primary hide">View All</button>
+        </div>
       </section>
       <!-- Registration section -->
       <section
@@ -377,7 +386,131 @@
           </div>
         </div>
       </section>
+
+      <!-- faq section -->
+      <section class="container my-5">
+        <h2 class="section-title text-center">Frequently Asked Quetions</h2>
+        <div class="row justify-content-center">
+          <div class="width-8">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What’s the difference between event design and event
+                    planning?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    The clue here is the name. The event planner plans every
+                    aspect of an event. This starts from the beginning at the
+                    conception of the event and continues until the event takes
+                    place. Although their work often goes beyond the big day,
+                    behind the scenes, as they gather feedback and conclude
+                    everything from the project. If you can think of any detail
+                    that might need to be considered, an event planner has
+                    already created a plan for it. Some examples of what they
+                    would be responsible for include creating the budget,
+                    deciding on a theme, and organising speakers and
+                    entertainment for the day.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How early do we need to start planning an event?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Planning an event requires a lot of planning and
+                    preparation, most of all it requires interest and time.
+                    That's why you should start at least 2 weeks earlier.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    What is the importance of event management?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There was a time, when we could do without them and create
+                    events. But today, they are more important than ever. This
+                    is primarily due to the fact that virtual and hybrid events
+                    are the new “IT” thing. And since they’re a relatively new
+                    way of conducting events, the process is slightly unclear.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img src="images/people.png" alt="" srcset="" />
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- footer start -->
+    <footer class="bg-dark align-items-center">
+      <section
+        style="height: 300px"
+        class="container py-5 my-5 text-white text-center ali"
+      >
+        <h2>LearnIt</h2>
+        <p>
+          Office 41, Zawaya Buildin, Ghala Muscat, <br />Sultanate of Oman<br />Privacy
+          Ploicy | Terms of use
+        </p>
+        <!-- social icon  -->
+        <div class="social">
+            <div class="social ">
+                <a href="https://www.instagram.com
+                " target="_blank"><i class="fab fa-instagram text-white p-2 fs-5 bg-secondary rounded-pill"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter p-2 fs-5 bg-secondary rounded-pill text-white"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube p-2 fs-5 bg-secondary rounded-pill text-white"></i></a>
+            </div>
+      </section>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
